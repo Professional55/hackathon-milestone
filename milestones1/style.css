@@ -1,0 +1,64 @@
+body{
+    font-family: sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 150px; 
+}
+.resume-container{
+       display: flex; 
+       background-color: #fff;
+        width: 85%; 
+       margin: 0 auto;
+       border-radius: 10px;
+       box-shadow: 0 0 20px rgba(0.9, 0.8, 0.7, 0.1);
+}
+.left-section{
+    background-color: black;
+    width: 35%;
+    color: #fff;
+    padding-left: 20px;
+    text-align: center;
+    border-right: 5px solid blue;
+}
+#image{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+h3{
+    border: 1px solid blue;
+    font-weight: 900;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 0 0 15px blue;
+    /* margin: 20px 0 10px; */
+}
+h1{
+    font-size: 180%;
+    font-weight: bold;
+    margin: 10px,0;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.right-section{
+    padding-left: 25px;
+}
+#toggle-skills{
+    background-color: black;
+    color: #fff;
+    border:1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    width: fit-content;
+    box-shadow: 0 0 15px blue;
+}
+#toggle-skills:hover{
+    color: rgb(129, 129, 228);
+}
